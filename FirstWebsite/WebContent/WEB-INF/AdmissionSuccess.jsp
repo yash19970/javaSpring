@@ -11,6 +11,10 @@
 				<td> Student Hobby: </td>
 				<td> ${student1.studentHobby} </td>
 			</tr>
+			<tr> 
+				<td> Student Mobile: </td>
+				<td> ${student1.studentMobile} </td>
+			</tr>
 		</table>
 	</body>
 </html>

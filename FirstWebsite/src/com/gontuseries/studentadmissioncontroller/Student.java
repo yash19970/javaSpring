@@ -3,8 +3,17 @@ package com.gontuseries.studentadmissioncontroller;
 public class Student {
 	private String studentName;
 	private String studentHobby;
+	private long studentMobile;
 	
-
+	
+	public long getStudentMobile() {
+		return studentMobile;
+	}
+	
+	public void setStudentMobile(long studentMobile) {
+		this.studentMobile = studentMobile;
+	}
+	
 	public String getStudentName() {
 		return studentName;
 	}
